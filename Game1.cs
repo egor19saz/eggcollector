@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
@@ -67,7 +67,7 @@ namespace EggCollector
             obstacleHeight = 48; // Задайте желаемую высоту препятствия
 
             // Загрузка шрифта
-            spriteFont = Content.Load<SpriteFont>("silverfont");
+            spriteFont = Content.Load<SpriteFont>("arial");
 
             base.LoadContent();
         }
