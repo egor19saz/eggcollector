@@ -40,9 +40,9 @@ namespace EggCollector
         protected override void Initialize()
         {
             rabbitPosition = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
-            rabbitWidth = 64;  // Задайте желаемую ширину кролика
-            rabbitHeight = 64; // Задайте желаемую высоту кролика
-
+            rabbitWidth = 64;  
+            rabbitHeight = 64; 
+            
             eggPositions = new List<Vector2>();
             obstaclePositions = new List<Vector2>();
 
@@ -60,13 +60,13 @@ namespace EggCollector
             eggTexture = Content.Load<Texture2D>("egg");
             obstacleTexture = Content.Load<Texture2D>("obstacle");
 
-            eggWidth = 32;      // Задайте желаемую ширину яйца
-            eggHeight = 32;     // Задайте желаемую высоту яйца
+            eggWidth = 32;      
+            eggHeight = 32;     
 
-            obstacleWidth = 48; // Задайте желаемую ширину препятствия
-            obstacleHeight = 48; // Задайте желаемую высоту препятствия
+            obstacleWidth = 48; 
+            obstacleHeight = 48; 
 
-            // Загрузка шрифта
+            
             spriteFont = Content.Load<SpriteFont>("arial");
 
             base.LoadContent();
